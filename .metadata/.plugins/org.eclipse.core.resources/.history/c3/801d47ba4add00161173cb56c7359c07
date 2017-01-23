@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="collectionBean" class="com.springbook.ioc.injection.CollectionBean">
+		<property name = "addressList">
+			<list>
+				<value>런던 피카델리</value>
+				<value>런던 트라팔가</value>
+			</list>
+		</property>
+	
+	</bean>
+
+</beans>

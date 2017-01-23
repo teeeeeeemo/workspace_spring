@@ -1,0 +1,6 @@
+package com.springbook.ioc.injection;
+
+public class CollectionBean {
+	private List<String> addressList;
+
+}

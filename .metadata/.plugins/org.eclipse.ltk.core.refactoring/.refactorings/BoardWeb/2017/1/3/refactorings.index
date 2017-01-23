@@ -1,0 +1,49 @@
+1484661482490	Delete element
+1484662492893	Delete elements
+1484697045625	Delete element
+1484697069843	Delete element
+1484697074649	Delete element
+1484701206523	Delete element
+1484717246424	Delete element
+1484717291393	Extract interface 'Speaker'
+1484736925055	Extract interface 'BoardService'
+1484737009546	Delete element
+1484737720155	Delete element
+1484739401955	Delete element
+1484740435491	Copy package
+1484740469222	Delete element
+1484740562572	Move compilation unit
+1484740629986	Move compilation unit
+1484740649398	Delete element
+1484740660472	Rename package 'com.springbook.biz.board2'
+1484741184864	Rename compilation unit 'BoardServicleImpl.java'
+1484742517461	Rename package 'com.spring.biz.board.impl'
+1484749004594	Rename type 'UserDao'
+1484749042792	Rename compilation unit 'UserDao.java'
+1484749060356	Delete element
+1484749548050	Extract interface 'UserService'
+1484749576793	Move compilation unit
+1484785224633	Rename type 'LogAdvice'
+1484787684122	Rename compilation unit 'Log4jAdvice.java'
+1484813866102	Delete element
+1484817215671	Delete element
+1484870824755	Delete element
+1484877185795	Delete element
+1484877192176	Delete element
+1484877196612	Delete element
+1484877201846	Delete element
+1484877207184	Delete element
+1484879412334	Rename type 'ViewResolvoer'
+1484879594924	Copy compilation unit
+1484886232685	Move 'action-servlet.xml' to 'config'
+1484886253602	Rename resource 'action-servlet.xml'
+1484887829207	Delete element
+1484890893022	Move 'presentation-layer.xml' to 'WEB-INF'
+1484890927537	Move 'presentation-layer.xml' to 'config'
+1484896908180	Move 2 resources to 'board'
+1484898624646	Move 2 resources to 'WEB-INF'
+1484898632547	Move 2 resources to 'webapp'
+1484903037226	Delete elements
+1484979787338	Copy file
+1484979817472	Copy file
+1484982573352	Delete element

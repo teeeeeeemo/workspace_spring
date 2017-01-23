@@ -1,0 +1,8 @@
+package com.springbook.biz.common;
+
+public class MyLogAdvice {
+	public void myLogPrint() {
+		System.out.println("[티모로그] 비지니스 로직 수행 전 동작");
+	}
+
+}

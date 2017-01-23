@@ -1,0 +1,20 @@
+package com.springbook.biz.board;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Board
+ *
+ */
+
+public class Board  {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public Board() {
+		super();
+	}
+   
+}

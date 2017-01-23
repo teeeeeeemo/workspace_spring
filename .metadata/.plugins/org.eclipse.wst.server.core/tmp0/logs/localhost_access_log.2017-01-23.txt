@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:11:52 +0900] "GET /biz/getBoardList.do?lang=ko HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:11:54 +0900] "GET /biz/insertBoard.jsp?lang=ko HTTP/1.1" 200 1148
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:03 +0900] "POST /biz/insertBoard.do HTTP/1.1" 200 1951
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:15 +0900] "POST /biz/getBoardList.do HTTP/1.1" 200 1549
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:17 +0900] "GET /biz/getBoardList.do?lang=ko HTTP/1.1" 200 1951
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:18 +0900] "GET /biz/getBoard.do?seq=3 HTTP/1.1" 200 1280
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:19 +0900] "GET /biz/getBoardList.do HTTP/1.1" 200 1951
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:21 +0900] "GET /biz/getBoard.do?seq=4 HTTP/1.1" 200 1271
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:24 +0900] "GET /biz/getBoardList.do HTTP/1.1" 200 1951
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:26 +0900] "GET /biz/getBoard.do?seq=4 HTTP/1.1" 200 1271
+0:0:0:0:0:0:0:1 - - [23/Jan/2017:01:12:28 +0900] "GET /biz/deleteBoard.do?seq=4 HTTP/1.1" 200 1817
+127.0.0.1 - - [23/Jan/2017:09:04:25 +0900] "GET / HTTP/1.1" 404 994
