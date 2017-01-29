@@ -1,0 +1,8 @@
+package com.springbook.biz.user.impl;
+
+import org.mybatis.spring.SqlSessionTemplate;
+
+public class UserDAOMybatis {
+
+	SqlSessionTemplate mybatis;
+}

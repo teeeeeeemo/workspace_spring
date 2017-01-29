@@ -1,5 +1,0 @@
-package com.springbook.biz.board.impl;
-
-import javax.swing.tree.RowMapper;
-
-public class BoardRowMapper implements RowMapper

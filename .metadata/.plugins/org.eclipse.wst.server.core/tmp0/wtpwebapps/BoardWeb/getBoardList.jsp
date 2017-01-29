@@ -13,9 +13,18 @@
 <center>
 <h1><spring:message code="message.board.list.mainTitle"/></h1>
 <h3>${userName }<spring:message code="message.board.list.welcomeMsg"/><br/>
+
+<tr><td>
+<form action="getBoardList.do" method="post">
+<input type="hidden" name="searchCondition" value="WRITER">
+<input type="hidden" name="searchKeyword" value="${userName }">
+<input type="submit" value="내가 쓴 글 보기"/>
+</form>
+</td></tr>
+<a href="changeUserInfo.jsp">회원정보변경</a>&nbsp;&nbsp;
 <a href="logout.do">Log-out</a></h3>
-
-
+<hr>
+<br>
 <!--  검색 시작 -->
 <form action="getBoardList.do" method="post">
 <table border="1" cellpadding="0" cellspacing="0" width="700">
@@ -57,7 +66,7 @@
 	<td>${board.writer }</td>
 	<td><fmt:formatDate value="${board.regDate}" pattern="yyyy-MM-dd"/></td>
 	<td>${board.cnt }</td>
-</tr>
+</tr> 
 </c:forEach>
 </table>
 <br>

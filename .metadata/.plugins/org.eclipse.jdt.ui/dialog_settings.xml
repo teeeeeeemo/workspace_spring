@@ -18,8 +18,8 @@
 		<item value="false" key="expanded4"/>
 		<item value="false" key="expanded3"/>
 		<item value="false" key="expanded6"/>
-		<item value="true" key="expanded5"/>
-		<item value="false" key="expanded7"/>
+		<item value="false" key="expanded5"/>
+		<item value="true" key="expanded7"/>
 		<item value="false" key="expanded0"/>
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
@@ -112,7 +112,7 @@
 	</section>
 	<section name="completion_proposal_size">
 		<item value="192" key="size.y"/>
-		<item value="296" key="size.x"/>
+		<item value="555" key="size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>

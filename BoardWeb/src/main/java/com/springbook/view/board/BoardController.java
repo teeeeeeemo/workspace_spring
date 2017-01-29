@@ -49,7 +49,7 @@ public class BoardController {
 		Map<String, String> conditionMap = new HashMap<String, String>();
 		conditionMap.put("제목", "TITLE");
 		conditionMap.put("내용", "CONTENT");
-		//conditionMap.put("작성자", "WRITER"); ///
+		conditionMap.put("작성자", "WRITER"); 
 		return conditionMap;
 	}
 	

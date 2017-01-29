@@ -4,6 +4,7 @@ message.user.login.id=아이디
 message.user.login.password=비밀번호
 message.user.login.loginBtn=로그인
 message.user.login.resetBtn=취소
+message.user.login.joinBtn=회원가입
 
 
 message.user.login.language.en=영어

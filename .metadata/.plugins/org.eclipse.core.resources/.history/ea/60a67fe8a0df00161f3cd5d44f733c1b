@@ -1,5 +1,0 @@
-package com.springbook.view.common;
-
-public class CommonExceptionHandler {
-
-}

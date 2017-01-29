@@ -1,9 +1,12 @@
 package com.springbook.biz.user;
 
+import javax.servlet.http.HttpSession;
+
 public class UserVO {
 	
 	private String id;
 	private String password;
+	private String newPassword;
 	private String name;
 	private String role;
 	
@@ -23,6 +26,14 @@ public class UserVO {
 		this.password = password;
 	}
 	
+	public String getNewPassword() {
+		return newPassword;
+	}
+	
+	public void setNewPassword(String newPassword) {
+		this.newPassword = newPassword;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -38,6 +49,7 @@ public class UserVO {
 	public void setRole(String role) {
 		this.role = role;
 	}
+	
 	
 	@Override
 	public String toString() {

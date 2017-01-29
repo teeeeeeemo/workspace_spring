@@ -1,0 +1,15 @@
+package com.springbook.biz.user.impl;
+
+import org.mybatis.spring.SqlSessionTemplate;
+
+import com.springbook.biz.user.UserVO;
+
+public class UserDAOMybatis {
+
+	private SqlSessionTemplate mybatis;
+	
+	public void insertUser(UserVO vo) {
+		System.out.println("===> Mybatis로 insertUser() 기능 처리");
+		mybatis.insert("UserDAO.insertUser", vo);
+	}
+}

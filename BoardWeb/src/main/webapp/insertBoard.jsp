@@ -13,19 +13,21 @@
 <h1>글 등록</h1>
 <a href="logout.do">Log-out</a>
 <hr>
-<form action="insertBoard.do" method="post" enctype="multipart/form-data">
+<form action="insertBoard.do" method="post" enctype="multipart/form-data"
+		onsubmit="return input_check_func()">
+<input type="hidden" name="writer" value="${userName}"/>
 <table border="1" cellpadding="0" cellspacing="0">
 	<tr>
 		<td bgcolor="pink" width="70">제목</td>
-		<td align="left"><input type="text" name="title"/></td>
+		<td align="left"><input type="text" id="title" name="title"/></td>
 	</tr>
 	<tr>
 		<td bgcolor="pink">작성자</td>
-		<td align="left"><input type="text" name="writer" size="10"/></td>
+		<td align="left">&nbsp;${userName }</td>
 	</tr>
 	<tr>
 		<td bgcolor="pink">내용</td>
-		<td align="left"><textarea name="content" cols="45" rows="10"></textarea></td>
+		<td align="left"><textarea id="content" name="content" cols="45" rows="10"></textarea></td>
 	</tr>
 	<tr>
 		<td bgcolor="pink" width="70">업로드</td>
@@ -40,5 +42,20 @@
 <hr>
 <a href="getBoardList.do?lang=ko">글 목록</a>
 </center>
+    
+    <script>
+    	
+    function input_check_func() {
+    	var title = document.getElementById('title').value;
+    	var content = document.getElementById('content').value;
+    	if(title == null || content == null || 
+    			title == "" || content == "" ) {
+    		alert("제목이랑 내용은 써야할거아니야");
+    	return false;
+    	} else {
+    		return true;
+    	}
+    }
+    </script>
 </body>
 </html>
